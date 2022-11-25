@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Landmarks
+@testable import Imogen
 
 class LandmarksTests: XCTestCase {
 

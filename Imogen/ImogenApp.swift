@@ -8,7 +8,10 @@
 import SwiftUI
 
 @main
-struct LandmarksApp: App {
+struct ImogenApp: App {
+    
+    @StateObject var picturesViewModel = PicturesViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()

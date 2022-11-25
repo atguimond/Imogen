@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A113D59828F75A7600D5049F /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D59728F75A7600D5049F /* LandmarksApp.swift */; };
+		A113D59828F75A7600D5049F /* ImogenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D59728F75A7600D5049F /* ImogenApp.swift */; };
 		A113D59A28F75A7600D5049F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D59928F75A7600D5049F /* ContentView.swift */; };
 		A113D59C28F75A7900D5049F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A113D59B28F75A7900D5049F /* Assets.xcassets */; };
 		A113D59F28F75A7900D5049F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A113D59E28F75A7900D5049F /* Preview Assets.xcassets */; };
-		A113D5AA28F75A7A00D5049F /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D5A928F75A7A00D5049F /* LandmarksTests.swift */; };
-		A113D5B528F75A7A00D5049F /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D5B428F75A7A00D5049F /* LandmarksUITests.swift */; };
+		A113D5AA28F75A7A00D5049F /* ImogenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D5A928F75A7A00D5049F /* ImogenTests.swift */; };
+		A113D5B528F75A7A00D5049F /* ImogenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D5B428F75A7A00D5049F /* ImogenUITests.swift */; };
+		A113D5C628F7670800D5049F /* PicturesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A113D5C528F7670800D5049F /* PicturesListScreen.swift */; };
+		A1CED2CC29313F4D00CBAB49 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2CB29313F4D00CBAB49 /* Picture.swift */; };
+		A1CED2CE2931404400CBAB49 /* PicturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2CD2931404400CBAB49 /* PicturesListView.swift */; };
+		A1CED2D32931450300CBAB49 /* PictureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2D22931450300CBAB49 /* PictureRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,18 +37,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A113D59428F75A7600D5049F /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A113D59728F75A7600D5049F /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
+		A113D59428F75A7600D5049F /* Imogen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Imogen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D59728F75A7600D5049F /* ImogenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImogenApp.swift; sourceTree = "<group>"; };
 		A113D59928F75A7600D5049F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A113D59B28F75A7900D5049F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A113D59E28F75A7900D5049F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A113D5A028F75A7900D5049F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A113D5A528F75A7A00D5049F /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A113D5A928F75A7A00D5049F /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
+		A113D5A528F75A7A00D5049F /* ImogenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImogenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D5A928F75A7A00D5049F /* ImogenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImogenTests.swift; sourceTree = "<group>"; };
 		A113D5AB28F75A7A00D5049F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A113D5B028F75A7A00D5049F /* LandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A113D5B428F75A7A00D5049F /* LandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksUITests.swift; sourceTree = "<group>"; };
+		A113D5B028F75A7A00D5049F /* ImogenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImogenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A113D5B428F75A7A00D5049F /* ImogenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImogenUITests.swift; sourceTree = "<group>"; };
 		A113D5B628F75A7A00D5049F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A113D5C528F7670800D5049F /* PicturesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesListScreen.swift; sourceTree = "<group>"; };
+		A1CED2CB29313F4D00CBAB49 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		A1CED2CD2931404400CBAB49 /* PicturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesListView.swift; sourceTree = "<group>"; };
+		A1CED2D22931450300CBAB49 /* PictureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +83,12 @@
 		A113D58B28F75A7600D5049F = {
 			isa = PBXGroup;
 			children = (
-				A113D59628F75A7600D5049F /* Landmarks */,
-				A113D5A828F75A7A00D5049F /* LandmarksTests */,
-				A113D5B328F75A7A00D5049F /* LandmarksUITests */,
+				A113D59B28F75A7900D5049F /* Assets.xcassets */,
+				A1CED2D42931459600CBAB49 /* Model */,
+				A1CED2D22931450300CBAB49 /* PictureRowView.swift */,
+				A113D59628F75A7600D5049F /* Imogen */,
+				A113D5A828F75A7A00D5049F /* ImogenTests */,
+				A113D5B328F75A7A00D5049F /* ImogenUITests */,
 				A113D59528F75A7600D5049F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,23 +96,24 @@
 		A113D59528F75A7600D5049F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A113D59428F75A7600D5049F /* Landmarks.app */,
-				A113D5A528F75A7A00D5049F /* LandmarksTests.xctest */,
-				A113D5B028F75A7A00D5049F /* LandmarksUITests.xctest */,
+				A113D59428F75A7600D5049F /* Imogen.app */,
+				A113D5A528F75A7A00D5049F /* ImogenTests.xctest */,
+				A113D5B028F75A7A00D5049F /* ImogenUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A113D59628F75A7600D5049F /* Landmarks */ = {
+		A113D59628F75A7600D5049F /* Imogen */ = {
 			isa = PBXGroup;
 			children = (
-				A113D59728F75A7600D5049F /* LandmarksApp.swift */,
+				A113D59728F75A7600D5049F /* ImogenApp.swift */,
 				A113D59928F75A7600D5049F /* ContentView.swift */,
-				A113D59B28F75A7900D5049F /* Assets.xcassets */,
+				A113D5C528F7670800D5049F /* PicturesListScreen.swift */,
+				A1CED2CD2931404400CBAB49 /* PicturesListView.swift */,
 				A113D5A028F75A7900D5049F /* Info.plist */,
 				A113D59D28F75A7900D5049F /* Preview Content */,
 			);
-			path = Landmarks;
+			path = Imogen;
 			sourceTree = "<group>";
 		};
 		A113D59D28F75A7900D5049F /* Preview Content */ = {
@@ -112,30 +124,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		A113D5A828F75A7A00D5049F /* LandmarksTests */ = {
+		A113D5A828F75A7A00D5049F /* ImogenTests */ = {
 			isa = PBXGroup;
 			children = (
-				A113D5A928F75A7A00D5049F /* LandmarksTests.swift */,
+				A113D5A928F75A7A00D5049F /* ImogenTests.swift */,
 				A113D5AB28F75A7A00D5049F /* Info.plist */,
 			);
-			path = LandmarksTests;
+			path = ImogenTests;
 			sourceTree = "<group>";
 		};
-		A113D5B328F75A7A00D5049F /* LandmarksUITests */ = {
+		A113D5B328F75A7A00D5049F /* ImogenUITests */ = {
 			isa = PBXGroup;
 			children = (
-				A113D5B428F75A7A00D5049F /* LandmarksUITests.swift */,
+				A113D5B428F75A7A00D5049F /* ImogenUITests.swift */,
 				A113D5B628F75A7A00D5049F /* Info.plist */,
 			);
-			path = LandmarksUITests;
+			path = ImogenUITests;
+			sourceTree = "<group>";
+		};
+		A1CED2D42931459600CBAB49 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A1CED2CB29313F4D00CBAB49 /* Picture.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A113D59328F75A7600D5049F /* Landmarks */ = {
+		A113D59328F75A7600D5049F /* Imogen */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A113D5B928F75A7A00D5049F /* Build configuration list for PBXNativeTarget "Landmarks" */;
+			buildConfigurationList = A113D5B928F75A7A00D5049F /* Build configuration list for PBXNativeTarget "Imogen" */;
 			buildPhases = (
 				A113D59028F75A7600D5049F /* Sources */,
 				A113D59128F75A7600D5049F /* Frameworks */,
@@ -145,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = Landmarks;
+			name = Imogen;
 			productName = Landmarks;
-			productReference = A113D59428F75A7600D5049F /* Landmarks.app */;
+			productReference = A113D59428F75A7600D5049F /* Imogen.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A113D5A428F75A7A00D5049F /* LandmarksTests */ = {
+		A113D5A428F75A7A00D5049F /* ImogenTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A113D5BC28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "LandmarksTests" */;
+			buildConfigurationList = A113D5BC28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "ImogenTests" */;
 			buildPhases = (
 				A113D5A128F75A7A00D5049F /* Sources */,
 				A113D5A228F75A7A00D5049F /* Frameworks */,
@@ -163,14 +183,14 @@
 			dependencies = (
 				A113D5A728F75A7A00D5049F /* PBXTargetDependency */,
 			);
-			name = LandmarksTests;
+			name = ImogenTests;
 			productName = LandmarksTests;
-			productReference = A113D5A528F75A7A00D5049F /* LandmarksTests.xctest */;
+			productReference = A113D5A528F75A7A00D5049F /* ImogenTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A113D5AF28F75A7A00D5049F /* LandmarksUITests */ = {
+		A113D5AF28F75A7A00D5049F /* ImogenUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A113D5BF28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "LandmarksUITests" */;
+			buildConfigurationList = A113D5BF28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "ImogenUITests" */;
 			buildPhases = (
 				A113D5AC28F75A7A00D5049F /* Sources */,
 				A113D5AD28F75A7A00D5049F /* Frameworks */,
@@ -181,9 +201,9 @@
 			dependencies = (
 				A113D5B228F75A7A00D5049F /* PBXTargetDependency */,
 			);
-			name = LandmarksUITests;
+			name = ImogenUITests;
 			productName = LandmarksUITests;
-			productReference = A113D5B028F75A7A00D5049F /* LandmarksUITests.xctest */;
+			productReference = A113D5B028F75A7A00D5049F /* ImogenUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +228,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A113D58F28F75A7600D5049F /* Build configuration list for PBXProject "Landmarks" */;
+			buildConfigurationList = A113D58F28F75A7600D5049F /* Build configuration list for PBXProject "Imogen" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,9 +241,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A113D59328F75A7600D5049F /* Landmarks */,
-				A113D5A428F75A7A00D5049F /* LandmarksTests */,
-				A113D5AF28F75A7A00D5049F /* LandmarksUITests */,
+				A113D59328F75A7600D5049F /* Imogen */,
+				A113D5A428F75A7A00D5049F /* ImogenTests */,
+				A113D5AF28F75A7A00D5049F /* ImogenUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -260,7 +280,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A113D59A28F75A7600D5049F /* ContentView.swift in Sources */,
-				A113D59828F75A7600D5049F /* LandmarksApp.swift in Sources */,
+				A1CED2CC29313F4D00CBAB49 /* Picture.swift in Sources */,
+				A113D59828F75A7600D5049F /* ImogenApp.swift in Sources */,
+				A1CED2D32931450300CBAB49 /* PictureRowView.swift in Sources */,
+				A1CED2CE2931404400CBAB49 /* PicturesListView.swift in Sources */,
+				A113D5C628F7670800D5049F /* PicturesListScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +292,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A113D5AA28F75A7A00D5049F /* LandmarksTests.swift in Sources */,
+				A113D5AA28F75A7A00D5049F /* ImogenTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A113D5B528F75A7A00D5049F /* LandmarksUITests.swift in Sources */,
+				A113D5B528F75A7A00D5049F /* ImogenUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +309,12 @@
 /* Begin PBXTargetDependency section */
 		A113D5A728F75A7A00D5049F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A113D59328F75A7600D5049F /* Landmarks */;
+			target = A113D59328F75A7600D5049F /* Imogen */;
 			targetProxy = A113D5A628F75A7A00D5049F /* PBXContainerItemProxy */;
 		};
 		A113D5B228F75A7A00D5049F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A113D59328F75A7600D5049F /* Landmarks */;
+			target = A113D59328F75A7600D5049F /* Imogen */;
 			targetProxy = A113D5B128F75A7A00D5049F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -418,15 +442,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Imogen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Imogen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.umich.edu.Landmarks.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umich.edu.Imogen.Imogen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -439,15 +463,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Landmarks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Imogen/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Landmarks/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = Imogen/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.umich.edu.Landmarks.Landmarks;
+				PRODUCT_BUNDLE_IDENTIFIER = com.umich.edu.Imogen.Imogen;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -471,7 +495,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imogen.app/Imogen";
 			};
 			name = Debug;
 		};
@@ -492,7 +516,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Landmarks.app/Landmarks";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Imogen.app/Imogen";
 			};
 			name = Release;
 		};
@@ -537,7 +561,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A113D58F28F75A7600D5049F /* Build configuration list for PBXProject "Landmarks" */ = {
+		A113D58F28F75A7600D5049F /* Build configuration list for PBXProject "Imogen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A113D5B728F75A7A00D5049F /* Debug */,
@@ -546,7 +570,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A113D5B928F75A7A00D5049F /* Build configuration list for PBXNativeTarget "Landmarks" */ = {
+		A113D5B928F75A7A00D5049F /* Build configuration list for PBXNativeTarget "Imogen" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A113D5BA28F75A7A00D5049F /* Debug */,
@@ -555,7 +579,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A113D5BC28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "LandmarksTests" */ = {
+		A113D5BC28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "ImogenTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A113D5BD28F75A7A00D5049F /* Debug */,
@@ -564,7 +588,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A113D5BF28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "LandmarksUITests" */ = {
+		A113D5BF28F75A7A00D5049F /* Build configuration list for PBXNativeTarget "ImogenUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A113D5C028F75A7A00D5049F /* Debug */,
