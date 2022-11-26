@@ -60,7 +60,7 @@ struct ContentView: View {
                     }
                     .keyboardType(.alphabet)
                     
-                    NavigationLink(destination: PicturesListScreen()) {
+                    NavigationLink(destination: ChatView(initMessage: searchParams)) {
                         Image(systemName: "arrow.up.circle.fill")
                             .foregroundColor(Color(red: 0.13, green: 0.543, blue: 0.647))
                             .font(.system(size: CGFloat(30)))

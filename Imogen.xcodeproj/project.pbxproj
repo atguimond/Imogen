@@ -17,6 +17,11 @@
 		A1CED2CC29313F4D00CBAB49 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2CB29313F4D00CBAB49 /* Picture.swift */; };
 		A1CED2CE2931404400CBAB49 /* PicturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2CD2931404400CBAB49 /* PicturesListView.swift */; };
 		A1CED2D32931450300CBAB49 /* PictureRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2D22931450300CBAB49 /* PictureRowView.swift */; };
+		A1CED2D729317AC000CBAB49 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2D629317AC000CBAB49 /* ChatView.swift */; };
+		A1CED2D929317B4900CBAB49 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2D829317B4900CBAB49 /* Message.swift */; };
+		A1CED2DB29317B7900CBAB49 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2DA29317B7900CBAB49 /* User.swift */; };
+		A1CED2DD2931814300CBAB49 /* MessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2DC2931814300CBAB49 /* MessageView.swift */; };
+		A1CED2DF2931825800CBAB49 /* ContentMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1CED2DE2931825800CBAB49 /* ContentMessageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		A1CED2CB29313F4D00CBAB49 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
 		A1CED2CD2931404400CBAB49 /* PicturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesListView.swift; sourceTree = "<group>"; };
 		A1CED2D22931450300CBAB49 /* PictureRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureRowView.swift; sourceTree = "<group>"; };
+		A1CED2D629317AC000CBAB49 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		A1CED2D829317B4900CBAB49 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		A1CED2DA29317B7900CBAB49 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1CED2DC2931814300CBAB49 /* MessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageView.swift; sourceTree = "<group>"; };
+		A1CED2DE2931825800CBAB49 /* ContentMessageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentMessageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +93,7 @@
 		A113D58B28F75A7600D5049F = {
 			isa = PBXGroup;
 			children = (
+				A1CED2E0293183B400CBAB49 /* Helper */,
 				A113D59B28F75A7900D5049F /* Assets.xcassets */,
 				A1CED2D42931459600CBAB49 /* Model */,
 				A1CED2D22931450300CBAB49 /* PictureRowView.swift */,
@@ -108,6 +119,9 @@
 			children = (
 				A113D59728F75A7600D5049F /* ImogenApp.swift */,
 				A113D59928F75A7600D5049F /* ContentView.swift */,
+				A1CED2D629317AC000CBAB49 /* ChatView.swift */,
+				A1CED2DC2931814300CBAB49 /* MessageView.swift */,
+				A1CED2DE2931825800CBAB49 /* ContentMessageView.swift */,
 				A113D5C528F7670800D5049F /* PicturesListScreen.swift */,
 				A1CED2CD2931404400CBAB49 /* PicturesListView.swift */,
 				A113D5A028F75A7900D5049F /* Info.plist */,
@@ -146,8 +160,17 @@
 			isa = PBXGroup;
 			children = (
 				A1CED2CB29313F4D00CBAB49 /* Picture.swift */,
+				A1CED2D829317B4900CBAB49 /* Message.swift */,
+				A1CED2DA29317B7900CBAB49 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A1CED2E0293183B400CBAB49 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,10 +302,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1CED2DF2931825800CBAB49 /* ContentMessageView.swift in Sources */,
 				A113D59A28F75A7600D5049F /* ContentView.swift in Sources */,
 				A1CED2CC29313F4D00CBAB49 /* Picture.swift in Sources */,
 				A113D59828F75A7600D5049F /* ImogenApp.swift in Sources */,
 				A1CED2D32931450300CBAB49 /* PictureRowView.swift in Sources */,
+				A1CED2DD2931814300CBAB49 /* MessageView.swift in Sources */,
+				A1CED2D729317AC000CBAB49 /* ChatView.swift in Sources */,
+				A1CED2DB29317B7900CBAB49 /* User.swift in Sources */,
+				A1CED2D929317B4900CBAB49 /* Message.swift in Sources */,
 				A1CED2CE2931404400CBAB49 /* PicturesListView.swift in Sources */,
 				A113D5C628F7670800D5049F /* PicturesListScreen.swift in Sources */,
 			);
